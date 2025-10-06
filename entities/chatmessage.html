@@ -1,0 +1,23 @@
+{
+  "name": "ChatMessage",
+  "type": "object",
+  "properties": {
+    "sender_name": {
+      "type": "string",
+      "description": "Name of the message sender"
+    },
+    "message": {
+      "type": "string",
+      "description": "The chat message content"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When the message was sent"
+    }
+  },
+  "required": [
+    "sender_name",
+    "message"
+  ]
+}
